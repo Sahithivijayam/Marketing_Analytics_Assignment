@@ -1,0 +1,40 @@
+# =========================
+# Python cache
+# =========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# =========================
+# Virtual environments
+# =========================
+venv/
+env/
+.venv/
+
+# =========================
+# Environment variables (LOCAL ONLY)
+# =========================
+.env
+
+# =========================
+# Streamlit secrets (NEVER PUSH THIS)
+# =========================
+.streamlit/secrets.toml
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Logs
+# =========================
+*.log
+
+# =========================
+# Jupyter (if used accidentally)
+# =========================
+.ipynb_checkpoints/
